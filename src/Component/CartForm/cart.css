@@ -1,0 +1,174 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all 0.2s linear;
+  }
+  
+  html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 5rem;
+    scroll-behavior: smooth;
+  }
+  
+  .cart {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .cart .row h1 {
+    color: red;
+  }
+  .cart .row .continue a {
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.7rem;
+    padding: 1em;
+    color: #fff;
+    background: red;
+    font-weight: bold;
+    border-radius: 50px;
+  }
+  .products_cart {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cart .products_cart img {
+    height: 15vh;
+    width: 7vw;
+  }
+  
+  .price {
+    text-decoration: line-through;
+    color: red;
+  }
+  
+  .pic {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cost {
+    float: right;
+    /* margin-top: 10.5rem; */
+    margin-left: 3rem;
+    font-size: 18px;
+  }
+  
+  .cart .products_cart .TL {
+    display: flex;
+    /* align-items: center; */
+  }
+  
+  .quantity {
+    display: flex;
+    align-items: center;
+    /* margin-top: 5rem; */
+  }
+  
+  .quantity button {
+    width: 30px;
+    height: 30px;
+    background-color: #ccc;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .quantity button:hover {
+    background-color: red;
+  }
+  
+  .quantity input {
+    width: 50px;
+    height: 30px;
+    text-align: center; /* là khi ta nhập trong ô text chữ nó sẽ ở giữa khung*/
+    background-color: #f1f1f1;
+    color: #333;
+  }
+  
+  .cost_de {
+    display: flex;
+    align-items: center;
+  }
+  
+  .product-price {
+    color: red;
+    margin-right: 10px;
+    font-size: 2rem;
+  }
+  
+  .delete {
+    font-size: 2rem;
+    color: black;
+    cursor: pointer;
+  }
+  
+  /* TOTAL AND CHECKOUT  */
+  
+  .check {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .subtotal {
+    /* float: right; */
+    /* width: 35%; */
+    /* margin-right: 3rem; */
+    font-size: 15px;
+  }
+  .subtotal li {
+    list-style-type: none;
+  }
+  
+  .subtotal .totalRow {
+    padding: 0.5em;
+    text-align: right;
+  }
+  .subtotal .totalRow.final {
+    font-size: 1.25em;
+    font-weight: bold;
+  }
+  .subtotal .totalRow span {
+    display: inline-block;
+    padding: 0 0 0 1em;
+    text-align: right;
+  }
+  .subtotal .totalRow .label {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.95em;
+    text-transform: uppercase;
+    color: black;
+  }
+  .subtotal .totalRow .value {
+    letter-spacing: -0.025em;
+    width: 15%;
+    margin-right: 3rem;
+  }
+  a.btn.continue {
+    color: #ffffff;
+    font-size: 14px;
+    margin-right: 2rem;
+    background-color: green;
+    border-radius: 50px;
+    width: 15rem;
+  }
+  
